@@ -9,7 +9,6 @@ function App() {
   return (
     <Box
       sx={{
-        width: "100%",
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -30,12 +29,13 @@ function App() {
       >
         IA CHAT
       </Typography>
+
       <Box
         sx={{
           width: "400px",
           height: "500px",
-          borderRadius: "18px",
           display: "flex",
+          flexDirection: "column",
         }}
       >
         <DeepChat
@@ -54,18 +54,19 @@ function App() {
             height: "100%",
             borderRadius: "14px",
             background: "rgba(30, 30, 30, 0.6)",
+            padding: "25px 15px 8px 15px",
           }}
           textInput={{
+            styles: {
+              container: {
+                width: "90%",
+              },
+            },
             placeholder: {
               text: "Escribe algo...",
               style: {
                 color: "#555454ff",
               },
-            },
-            style: {
-              borderRadius: "14px",
-              padding: "10px",
-              border: "1px solid #333",
             },
           }}
         />
