@@ -53,7 +53,6 @@ cd ia-chat-interface
 
 ### 2️⃣ Instala las dependencias
 ```bash
-mkdir frontend
 cd frontend
 pnpm install
 ```
