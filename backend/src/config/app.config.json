@@ -1,4 +1,0 @@
-{
-  "PORT": 5000,
-  "ALLOWED_CORS": ["http://localhost:5173"]
-}
