@@ -36,7 +36,7 @@ function App() {
       >
         <DeepChat
           connect={{
-            url: "http://localhost:5000/chat",
+            url: "https://ai-chat-interface-backend-1civ.onrender.com/chat",
             method: "POST",
           }}
           style={{
